@@ -1,4 +1,6 @@
-from criptovalue.controllers import CriptoValueController
+from criptovalue.controllers import Controller
 
-exchange_values = CriptoValueController()
-exchange_values.ejecuta()
+if __name__ == "__main__":
+
+    exchanger = Controller()
+    exchanger.mainloop()
